@@ -23,6 +23,6 @@ for film_isim, film_puan in zip (film_isim,film_puan):
     ilm_puan= film_puan.strip()
     film_puan= film_puan.replace("\n","")
 
-    if (float(film_puan) > n):
+    if (float(film_puan) >= n):
         print("Film ismi: {} Imdb Puanı: {}".format(film_isim,film_puan))
         print("****************************************************************************************************")
